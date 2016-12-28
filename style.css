@@ -1,19 +1,74 @@
-body {
+body	{
 	background-image: url(background.jpg);
-	background-repeat: no-repeat;
+	background-repeat: none;
+	background-attachment: fixed;
 	background-size: 100%;
+}
+
+.container	{
+	text-align: center;
+	margin-top: 100px;
+	padding-top: 100px;
+}
+
+.header	{
 	text-align: center;
 }
 
-h1 {
-	font-family: Sans-serif;
-	font-size: 6em;
+h1	{
+	color: white;
+	font-family: 'Black Ops One', cursive;
+	font-size: 60px;
 	font-weight: lighter;
+	font-variant: small-caps;
+	text-shadow: 2px 4px 10px black;
 }
 
-a {
-	color: gray;
-	font-family: sans-serif;
+h2	{
+	color: white;
+	font-family: 'Black Ops One', cursive;
+	font-size: 20px;
 	font-weight: lighter;
-	text-decoration: none;
+	text-shadow: 2px 4px 10px black;
+}
+
+.one	{
+	display: inline-block;
+	background-image: url(beats.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.two	{
+	display: inline-block;
+	background-image: url(glock.png);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.three {
+	display: inline-block;
+	background-image: url(pixel.png);
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+img	{
+	height: 400px;
+	padding: 40px;
+	opacity: 1;
+	transition: 5s;
+}
+
+img:hover	{
+	opacity: 0;
+}
+
+p	{
+	font-size: 40px;
+	font-family: sans-serif;
+	color: white;
 }
